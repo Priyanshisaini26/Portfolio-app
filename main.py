@@ -5,7 +5,7 @@ st.set_page_config(layout='wide')
 col1, col2, = st.columns(2)
 
 with col1:
-    st.image("images/myphoto.jpg")
+    st.image("images/myphoto.jpg", width=400)
 
 with col2:
     st.title("Priyanshi Saini")
@@ -16,3 +16,8 @@ with col2:
      and machine learning
     """
     st.info(content)
+
+content2 = """
+Below you can find of the apps I have built in python. Feel free to contact me!
+"""
+st.write(content2)
